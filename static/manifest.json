@@ -1,0 +1,10 @@
+{
+  "name": "SKIscanner",
+  "short_name": "SKIscanner",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "related_applications": [{
+    "platform": "web"
+  }]
+}
