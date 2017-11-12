@@ -214,7 +214,7 @@
         playing.forEach(g => {
           if (!g.earned) {
             g.medal = 1 + Math.floor(Math.random() * 3)
-            g.earned = Math.floor(1 + Math.random() * g.size * (g.medal + 1)) * 50
+            g.earned = Math.floor(3 + Math.random() * g.size * (g.medal + 3)) * 50
           }
         })
       },
